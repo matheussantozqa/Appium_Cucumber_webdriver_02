@@ -1,0 +1,18 @@
+{
+"menuIcon": "~open menu",
+"loginButtonMenu": "android=new UiSelector().text(\"Log In\")",
+"loginPageTitle": "android=new UiSelector().text(\"Login\").instance(0)",
+"usernameField": "~Username input field",
+"passwordField": "~Password input field",
+"password": "secret_sauce",
+"wrongUser": "nonexistent@example.com",
+"validUser": "bob@example.com",
+"validPassword": "10203040",
+"wrongPassword": "invalidpassword",
+"loginButton": "android=new UiSelector().text(\"Login\").instance(1)",
+"invalidCredentialsMessage": "android=new UiSelector().text(\"Login\").instance(1)",
+"noCredentialsMessage": "~generic-error-message",
+"logoutButton": "android=new UiSelector().text(\"Log Out\")",
+"popUpAreYouSure": "android=new UiSelector().resourceId(\"android:id/alertTitle\")",
+"popUpConfirmLogout": "android=new UiSelector().resourceId(\"android:id/button1\")"
+}

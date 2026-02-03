@@ -1,0 +1,11 @@
+{
+"menuIcon": "~open menu",
+"iconFilter": "android=new UiSelector().className(\"android.widget.ImageView\").instance(2)",
+"nameDescending": "~nameDesc",
+"nameItens": "android=new UiSelector().className(\"android.widget.TextView\").description(\"store item text\")",
+"nameAscending": "~nameAsc",
+"priceAscending": "~priceAsc",
+"priceItens": "android=new UiSelector().className(\"android.widget.TextView\").description(\"store item price\")",
+"priceDescending": "~priceDesc"
+
+}

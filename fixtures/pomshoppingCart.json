@@ -1,0 +1,20 @@
+{
+"menuIcon": "~open menu",
+"secondProduct": "android=new UiSelector().className(\"android.widget.ImageView\").instance(4)",
+"addToCartButton": "~Add To Cart button",
+"itemCount": "android=new UiSelector().text(\"1\").instance(0)",
+"cartBadge": "~cart badge",
+"myCartTitle": "android=new UiSelector().text(\"My Cart\")",
+"removeItemButton": "~remove item",
+"goShoppingButton": "~Go Shopping button",
+"aboutButton": "android=new UiSelector().text(\"About\")",
+"aboutScreenTitle": "~container header",
+"catalogButton": "android=new UiSelector().text(\"Catalog\")",
+"catalogScreen": "android=new UiSelector().text(\"Products\")",
+"cartCounter": "android=new UiSelector().text(\"1\").instance(0)",
+"counterMinus": "~counter minus button",
+"counterProducts": "android=new UiSelector().text(\"0\")",
+"counterPlus": "android=new UiSelector().className(\"android.widget.ImageView\").instance(5)",
+"headerCartCounter": "android=new UiSelector().text(\"3\")"
+
+}
