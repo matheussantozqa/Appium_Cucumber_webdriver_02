@@ -69,7 +69,15 @@ export const config = {
     //
     framework: 'cucumber',
 
-    reporters: ['spec'],
+    reporters: [    
+    'spec',
+    ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false        
+    }],
+],
+
 
     cucumberOpts: {
         require: ['./e2e/step-definitions/**/*.js'],

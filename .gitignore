@@ -1,3 +1,5 @@
 node_modules
 bashCmd.txt
 .env
+allure-results/
+allure-report/
