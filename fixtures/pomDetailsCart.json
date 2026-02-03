@@ -1,0 +1,6 @@
+{
+"menuIcon": "~open menu",
+"iconFilter": "android=new UiSelector().className(\"android.widget.ImageView\").instance(2)",
+
+
+}
