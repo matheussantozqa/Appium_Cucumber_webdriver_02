@@ -12,6 +12,7 @@
     "appium-uiautomator2-driver": "^6.7.10"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "test:local": "wdio run ./wdio.conf.js",
+    "test:bs": "wdio run wdio.bs.conf.js"
   }
 }
