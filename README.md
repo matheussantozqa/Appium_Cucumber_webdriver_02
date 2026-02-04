@@ -1,4 +1,4 @@
-#📱 Appium Mobile Test + Cucumber + Allure Report
+## 📱 Appium Mobile Test + Cucumber + Allure Report
 
 This repository contains a comprehensive suite of **mobile E2E tests** using **Appium**, **Cucumber (Gherkin)** syntax, and **WebdriverIO (WDIO)**. The project is designed to test mobile applications, leveraging a robust **Page Object Model (POM)** and integrated with **Allure Report** for detailed test reporting. The entire test suite is orchestrated through a **GitHub Actions pipeline**, ensuring continuous integration and delivery.
 
